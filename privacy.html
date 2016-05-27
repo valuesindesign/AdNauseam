@@ -53,14 +53,24 @@
 
 <p style="max-width:400px; margin:auto;">AdNauseam is a browser extension designed to
     obfuscate your browsing data to protect you from tracking and profiling by advertising
-     networks. When browsing the Web, advertising networks track and analyze your browsing behavior. In order to make it harder for these networks to make meaningful predictions about you, AdNauseam simulates clicks on the advertisements served to you. </p>
+     networks. When browsing the Web, advertising networks track and analyze your browsing behavior.
+      In order to make it harder for these networks to make meaningful predictions about you,
+      AdNauseam simulates clicks on the advertisements served to you. </p>
 
 </div>
 
 <br>
 <h3>ADNAUSEAM DOESN’T COLLECT YOUR DATA</h3>
 <p>
-We at AdNauseam do not collect any data about you or your browsing behavior. We do make it possible for you to inspect locally the advertisements for which clicks were generated. In order to enable this, the information about the advertisements that the extension detects are stored locally on your computer (within AdNauseam and in its  local log file). Whenever you use a 'Private Browsing' window in your browser, AdNauseam is disabled for that window and no information about that window is stored.
+We at AdNauseam do not collect any data about you or your browsing behavior.
+AdNauseam has no home server and there are no analytic hooks of any kind in the code.
+uBlock Origin (on which AdNauseam is based) does download the filter-lists that it uses
+when you visit the 3rd-party filters pane in the dashboard, and occasionally
+thereafter if you have auto-update filter-lists checked (as described <a href="https://github.com/gorhill/uBlock/wiki/Privacy-policy" target="new">here /a>).
+AdNauseam does make it possible for you to locally inspect the advertisements for which clicks were generated.
+In order to enable this, information about the advertisements that the extension detects are stored
+ locally on your computer (using the browser's local storage mechanism). Whenever you use a 'Private Browsing'
+  window in your browser, however, AdNauseam is disabled for that window and no information about that window is stored.
 </p>
 
 <br>
@@ -70,16 +80,22 @@ AdNauseam stores its preferences in your device's browser profile.
 This data includes the URLs of ads that AdNauseam detects and the pages they were found on.
  AdNauseam does not transmit this information to any servers
   or third parties. In theory, other extensions and services (such as
-  Firefox Sync) may attempt to access these data and could use it
+  Firefox Sync) may attempt to access this data and could use it
    to reconstruct parts of your browsing history. However, this data
     does not provide additional information about you beyond what is already
-     collected by third parties sites when browsing the Web.
+     collected by websites and third parties when browsing the Web.
 </p>
 
 <br>
 <h3>ADNAUSEAM’S ENVIRONMENT</h3><p>
-AdNauseam makes use of an existing infrastructure for browsing the Web, specifically the Firefox Web browser and the AdBlock Plus extension. Your browser periodically checks for updates on all of your extensions, including AdNauseam. These checks take place outside of the control of AdNauseam. During such an update check, general information, such as browser version, extension version, operating system and your IP address, are transmitted by the browser and AdNauseam does not have access to these data. AdNauseam also requires that you have Adblock Plus installed. This extension has its own privacy <a target="new" href="https://adblockplus.org/en/privacy#logs">policy</a>.
-</p><br>
+AdNauseam makes use of an existing infrastructure for browsing the Web, specifically the Chrome, Firefox, or Opera Web browsers
+ and the <a href="https://github.com/gorhill/uBlock">uBlock Origin</a> extension. Your browser periodically checks for updates on all of your extensions,
+ including AdNauseam. These checks take place outside of the control of AdNauseam. During such an update check,
+  general information, such as browser version, extension version, operating system and your IP address, are
+  transmitted by the browser and AdNauseam does not have access to this data.
+  The uBlock Origin extension has its own privacy <a target="new" href="https://github.com/gorhill/uBlock/wiki/Privacy-policy">policy</a>.
+</p>
+<br>
 
 </div>
 
