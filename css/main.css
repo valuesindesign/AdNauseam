@@ -559,6 +559,34 @@ header h2{
 
 }
 
+@media only screen and (max-width: 850px) {
+  .col{
+    width:290px;
+    float:left;
+  }
+  .col2{
+    width:620px;
+    float:left;
+    margin:10px;
+  }
+  .col.left {
+    width:290px;
+    float:left;
+  }
+  .col.mid {
+    width:290px;
+    float:left;
+  }
+  .col.right {
+    width:290px;
+    float:left;
+  }
+  .col.soloMid {
+    width:290px;
+    float:left;
+  }
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
