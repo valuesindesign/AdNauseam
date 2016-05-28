@@ -232,7 +232,6 @@ section p a:visited {
    Press Page
    ========================================================================== */
 .gd-section{
-  margin:0 -10px;
    width: 100%;
    float: left;   
 }
@@ -274,12 +273,26 @@ section p a:visited {
 .col{
   width:290px;
   float:left;
-  margin:10px;
 }
 .col2{
   width:620px;
   float:left;
   margin:10px;
+}
+.col.left {
+  float:left;
+  width:33%;
+}
+.col.mid {
+  display:inline-block;
+  width:34%;
+}
+.col.right {
+  float:right;
+  width:33%;
+}
+.col.soloMid {
+  width:100%;
 }
 .pressdiv{
    width:278px;
@@ -504,11 +517,10 @@ header h2{
     .languagelist{
   position:absolute;
   top:415px;
-  left:275px;
-  margin:1rem auto;
+   margin-left: auto; margin-right: auto; left: 0; right: 0;
+   margin-top: 1rem;
   }
   .language{
-    padding-right:16px;
   }
 
    /* ===============
