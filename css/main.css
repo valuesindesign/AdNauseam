@@ -232,13 +232,14 @@ section p a:visited {
    Press Page
    ========================================================================== */
 .gd-section{
-  margin:0 -10px;
    width: 100%;
-   float: left;
+   float: left;   
 }
 
 .press{
   margin:5rem 0;
+  
+   margin-left: auto; margin-right: auto; left: 0; right: 0;
 }
 .languagelist{
   text-align:center;
@@ -272,12 +273,26 @@ section p a:visited {
 .col{
   width:290px;
   float:left;
-  margin:10px;
 }
 .col2{
   width:620px;
   float:left;
   margin:10px;
+}
+.col.left {
+  float:left;
+  width:33%;
+}
+.col.mid {
+  display:inline-block;
+  width:34%;
+}
+.col.right {
+  float:right;
+  width:33%;
+}
+.col.soloMid {
+  width:100%;
 }
 .pressdiv{
    width:278px;
@@ -286,6 +301,8 @@ section p a:visited {
   border-width: 1px;
   padding:10px;
   margin:10px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .superwidth{
@@ -417,7 +434,7 @@ header h2{
     /*filter: blur(4px);*/
   }
 
-  #logo           {left: 376px; top: 311px;}
+  #logo           {top: 311px; margin-left: auto; margin-right: auto; left: 0; right: 0;}
   .subpage        {top:255px !important;}
   #tagline        {left: 429px; top: 473px; -webkit-animation-delay: 0ms; animation-delay: 0ms}
   #p1             {left: 429px; top: 570px; -webkit-animation-delay: 0ms; animation-delay: 0ms}
@@ -492,27 +509,25 @@ header h2{
    }
    header h2{
     position: absolute;
-
     top: 343px;
    }
    #PressHeader{
-    left: 375px;
+     margin-left: auto; margin-right: auto; left: 0; right: 0;
    }
     .languagelist{
   position:absolute;
   top:415px;
-  left:275px;
-  margin:1rem auto;
+   margin-left: auto; margin-right: auto; left: 0; right: 0;
+   margin-top: 1rem;
   }
   .language{
-    padding-right:16px;
   }
 
    /* ===============
       Privacy Page
      =============== */
   #PrivacyHeader{
-    left: 365px;
+    margin-left: auto; margin-right: auto; left: 0; right: 0;
    }
   .policy{
     margin-top: 455px;
@@ -533,15 +548,43 @@ header h2{
         width: 1026px; /* 1140px - 10% for margins */
     }
      .policy{
-    padding-right:110px;
+    /*padding-right:110px;*/
    }
    .language{
-     padding-right:102px;
+     /*padding-right:102px;*/
    }
    .center{
     /*padding-right: 16px;*/
    }
 
+}
+
+@media only screen and (max-width: 850px) {
+  .col{
+    width:290px;
+    float:left;
+  }
+  .col2{
+    width:620px;
+    float:left;
+    margin:10px;
+  }
+  .col.left {
+    width:290px;
+    float:left;
+  }
+  .col.mid {
+    width:290px;
+    float:left;
+  }
+  .col.right {
+    width:290px;
+    float:left;
+  }
+  .col.soloMid {
+    width:290px;
+    float:left;
+  }
 }
 
 /* ==========================================================================
