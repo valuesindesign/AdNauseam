@@ -233,12 +233,12 @@ section p a:visited {
    ========================================================================== */
 .gd-section{
    width: 100%;
-   float: left;   
+   float: left;
 }
 
 .press{
   margin:5rem 0;
-  
+
    margin-left: auto; margin-right: auto; left: 0; right: 0;
 }
 .languagelist{
@@ -449,7 +449,7 @@ header h2{
   #source         {left: 109px; top: 856px; -webkit-animation-delay: 1600ms; animation-delay: 1600ms}
   #daniel         {left: 4px;   top: 620px; -webkit-animation-delay: 1800ms; animation-delay: 1800ms}
   #mushon         {left: 150px;  top: 736px; -webkit-animation-delay: 2000ms; animation-delay: 2000ms}
-  #book           {left: 199px; top: 1512px; -webkit-animation-delay: 2200ms; animation-delay: 2200ms}
+  #book           {left: 199px; top: 1642px; -webkit-animation-delay: 2200ms; animation-delay: 2200ms}
   #journal        {left: 779px; top: 1325px; -webkit-animation-delay: 2800ms; animation-delay: 2400ms}
   #twitter        {left: 760px; top: 870px; -webkit-animation-delay: 2600ms; animation-delay: 2600ms}
   #facebook       {left: 779px; top: 1250px; -webkit-animation-delay: 2600ms; animation-delay: 2600ms}
