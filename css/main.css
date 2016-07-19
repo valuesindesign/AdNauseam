@@ -184,25 +184,80 @@ section p a:visited {
 }
 
 #install > a{
-  background-image: url(../img/install@2x.png);
-  background-size: 303px 88px;
-  width: 283px;
-  height: 43px;
+  background-image: linear-gradient(-180deg, #9013FE 0%, #530B93 100%);
+  border: 2px solid #4C4D4C;
+  border: 3px solid #BD10E0;
+  border-radius: 15px;
+  width: 280px;
+  height: 40px;
   display: block;
   margin: 0 auto;
   text-decoration: none;
   color: #fff;
   text-align: left;
-  padding: 45px 0 0 20px;
+  padding: 15px 0 0 15px;
 }
 
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  #install > a {
-    background-image: url(../img/install@2x.png);
-    background-size: 303px 88px;
-  }
+#install > a:hover {
+  background-image: linear-gradient(-180deg, #9013FE 35%, #6C0EBF 100%);
 }
 
+#install > a::after{
+  content: "";
+  width: 80px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  top: -30px;
+  right: 5px;
+  background-size: 80px 80px;
+}
+
+#install > a.passive{
+  background: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  overflow: hidden;
+  text-indent: -99999px;
+  position: absolute;
+  border: 0;
+  top: 70px;
+  right: 50px;
+}
+
+#install > a.passive:last-of-type{
+  right: 0;
+}
+
+#install > a.passive::after{
+  content: "";
+  width: 40px;
+  height: 40px;
+  display: block;
+  top: 0;
+  right: 0;
+  background-size: 40px 40px;
+}
+
+#install > a.inst-moz::after{
+  background-image: url(../img/firefox-logo@2x.png);
+}
+
+#install > a.inst-chr::after{
+  background-image: url(../img/chrome-logo@2x.png);
+}
+
+#install > a.inst-opr::after{
+  background-image: url(../img/opera-logo@2x.png);
+}
+
+#install > span{
+  top: 76px;
+  display: block;
+  position: absolute;
+  right: 100px;
+}
 #how-to-install {
   font-size: 0.8em;
   color: #aaa;
