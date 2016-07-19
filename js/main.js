@@ -15,7 +15,7 @@ $(document).ready(function () {
 	$("#install a").addClass('passive');
 	$("#install" + bowser.name).removeClass('passive');
 
-	// temp: pending #295
+	// temp: pending css fix to #295
 	if (bowser.name === 'Opera')
 		$("#installChrome").css('right', '0px');
 });
