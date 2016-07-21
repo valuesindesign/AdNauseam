@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   var original;
 
-	$("#logo.subpage").mouseover(function () {
+  $("#logo.subpage").mouseover(function () {
     original = $(this).attr('src');
     $(this).attr('src', 'img/adn_animated_croped.png');
   });
@@ -11,11 +11,13 @@ $(document).ready(function () {
     $(this).attr('src', original);
   });
 
-	// show the correct default install link
-	$("#install a").addClass('passive');
-	$("#install" + bowser.name).removeClass('passive');
+  // show the correct default install link (see #295)
+  $("#install a").addClass('passive');
 
-	// temp: pending css fix to #295
-	if (bowser.name === 'Opera')
-		$("#installChrome").css('right', '0px');
+  var sel = $("#install" + bowser.name);
+  if (!sel.length) sel = $("#installChrome");
+  sel.removeClass('passive');
+
+  if (bowser.name === 'Opera')
+    $("#installChrome").css('right', '0px');
 });
