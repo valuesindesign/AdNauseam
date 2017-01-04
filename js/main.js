@@ -14,7 +14,7 @@ $(document).ready(function () {
   // show the correct default install link (see #295)
   $("#install a").addClass('passive');
 
-  var sel = $("#install" + bowser.name);
+  var sel = $("#install" + browser.name);
   if (!sel.length) sel = $("#installChrome");
   sel.removeClass('passive');
 
