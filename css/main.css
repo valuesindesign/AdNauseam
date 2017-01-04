@@ -328,17 +328,40 @@ section p a:visited {
    Press Release
    ========================================================================== */
 
-.release-hover:hover::after {
-  content: "";
-  background: #E7E2E2 url(../img/press-release.png);
-  display: block;
-  position: absolute;
-  bottom: -40px;
-  right: -70px;
-  width: 135px;
-  height: 93px;
-  z-index: 10;
-}
+ /*.release-hover:hover::after {
+   content: "";
+   background: #E7E2E2 url(../img/press-release.png);
+   display: block;
+   position: absolute;
+   bottom: -40px;
+   right: -70px;
+   width: 135px;
+   height: 93px;
+   z-index: 10;
+ }*/
+
+ #freeadnauseam span {
+   font-family: 'BebasNeue';
+   background: #000;
+   color: #D8000C;
+   padding: 0px 10px 3px;
+   border-radius: 3px;
+   border: #D8000C 2px solid;
+   display: block;
+   position: absolute;
+   bottom: -12px;
+   left: 50%;
+   margin-left: -50px;
+   width: 100px;
+   height: 20px;
+   z-index: 10;
+   font-size: 1.1em;
+ }
+
+ #freeadnauseam:hover span {
+   background: #D8000C;
+   color: #000;
+ }
 
 .press-release{
   background: #E7E2E2;
