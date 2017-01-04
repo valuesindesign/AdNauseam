@@ -384,7 +384,14 @@ a.watermark{
 }
 
 .press-release a {
-  color: #54026f
+  color: #330144;
+  background: rgba(84, 2, 111, 0.1);
+  text-decoration: none;
+}
+
+.press-release a:hover {
+  color: #54026f;
+  text-decoration: underline;;
 }
 
 .press-release iframe {
