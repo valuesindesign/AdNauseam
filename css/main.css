@@ -321,6 +321,55 @@ section p a:visited {
    }
 
 
+ /* ==========================================================================
+   Press Release
+   ========================================================================== */
+.press-release{
+  background: #E7E2E2;
+  color: #231428;
+  padding: 50px;
+  margin: 10px auto 50px;
+  max-width: 900px;
+  font-size: 20px;
+  font-family: Times, Georgia, serif;
+}
+
+.watermark{
+  text-align: center;
+}
+
+.press-release .note {
+  text-align: center;
+}
+
+.press-release h1{
+  font-size: 60px;
+  padding: 20px 0;
+  border-style: double;
+  border-width: 6px 0;
+  line-height: 1em;
+  text-align: center;
+}
+
+.press-release h2{
+  font-size: 30px;
+  line-height: 1em;
+}
+
+.press-release p {
+  font-family: Georgia, serif;
+  line-height: 1.5em;
+}
+
+.press-release a {
+  color: #740D98
+}
+
+.press-release iframe {
+  margin: 0 auto;
+  display: block;
+}
+
 /* ==========================================================================
   Press Page
   ========================================================================== */
