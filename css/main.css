@@ -349,6 +349,16 @@ section p a:visited {
   font-family: Times, Georgia, serif;
 }
 
+.press-release ::-moz-selection {
+    background: #deb3fc;
+    text-shadow: none;
+}
+
+.press-release ::selection {
+    background: #deb3fc;
+    text-shadow: none;
+}
+
 a.watermark{
   text-align: center;
   display: block;
