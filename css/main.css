@@ -334,8 +334,9 @@ section p a:visited {
   font-family: Times, Georgia, serif;
 }
 
-.watermark{
+a.watermark{
   text-align: center;
+  display: block;
 }
 
 .press-release .note {
@@ -362,7 +363,7 @@ section p a:visited {
 }
 
 .press-release a {
-  color: #740D98
+  color: #54026f
 }
 
 .press-release iframe {
