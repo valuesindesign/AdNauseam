@@ -85,7 +85,7 @@ body {
    ============== */
 
 .main {
-    padding: 30px 0;ta
+    padding: 30px 0;
 }
 
 .main article h1 {
@@ -181,6 +181,9 @@ section p a:visited {
 
 #install {
   text-align: right;
+  position: relative;
+  height: 100px;
+  width: 280px;
 }
 
 #install > a{
@@ -275,7 +278,7 @@ section p a:visited {
 
 .wrapper {
   width: 940px;
-  margin: -250px auto 0;
+  margin: -80px auto 0;
   position: relative;
 }
 
@@ -320,10 +323,60 @@ section p a:visited {
    	display: block;
    }
 
+  .parner span,
+  .parner strong{
+    font-size: 24px;
+    font-family: "Bebas Neue";
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+  }
+
+  .parner span{
+    font-size: 14px;
+    bottom: 29px;
+  }
 
  /* ==========================================================================
    Press Release
    ========================================================================== */
+
+ /*.release-hover:hover::after {
+   content: "";
+   background: #E7E2E2 url(../img/press-release.png);
+   display: block;
+   position: absolute;
+   bottom: -40px;
+   right: -70px;
+   width: 135px;
+   height: 93px;
+   z-index: 10;
+ }*/
+
+#freeadnauseam span {
+  font-family: 'BebasNeue';
+  background: #000;
+  color: #D8000C;
+  padding: 0px 10px 3px;
+  border-radius: 3px;
+  border: #D8000C 2px solid;
+  display: block;
+  position: absolute;
+  bottom: -12px;
+  right: 0;
+  margin-right: -60px;
+  width: 100px;
+  height: 20px;
+  z-index: 10;
+  font-size: 1.1em;
+}
+
+ #freeadnauseam:hover span {
+   background: #D8000C;
+   color: #000;
+ }
+
 .press-release{
   background: #E7E2E2;
   color: #231428;
@@ -333,6 +386,16 @@ section p a:visited {
   font-family: Times, Georgia, serif;
 }
 
+.press-release ::-moz-selection {
+    background: #deb3fc;
+    text-shadow: none;
+}
+
+.press-release ::selection {
+    background: #deb3fc;
+    text-shadow: none;
+}
+
 a.watermark{
   text-align: center;
   display: block;
@@ -340,6 +403,12 @@ a.watermark{
 
 .press-release .note {
   text-align: center;
+}
+
+.press-release img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .press-release h1{
@@ -362,7 +431,14 @@ a.watermark{
 }
 
 .press-release a {
-  color: #54026f
+  color: #330144;
+  background: rgba(84, 2, 111, 0.1);
+  text-decoration: none;
+}
+
+.press-release a:hover {
+  color: #54026f;
+  text-decoration: underline;;
 }
 
 .press-release iframe {
@@ -546,6 +622,7 @@ header h2{
   section>p{
     margin: 1em auto;
   }
+  #freeadnauseam img {max-width: 90%}
   #banners>div {
     text-align: center;
     margin-bottom: 10px;
@@ -577,6 +654,7 @@ header h2{
   }
 
   #logo           {top: 311px; margin-left: auto; margin-right: auto; left: 0; right: 0;}
+  #freeadnauseam  {position: absolute; top: 130px; left: 50%; margin-left: -225px;}
   .subpage        {top:255px !important;}
   #tagline        {left: 429px; top: 473px; -webkit-animation-delay: 0ms; animation-delay: 0ms}
   #p1             {left: 429px; top: 570px; -webkit-animation-delay: 0ms; animation-delay: 0ms}
@@ -591,8 +669,8 @@ header h2{
   #pressblock     {left: 292px; top: 1650px; -webkit-animation-delay: 2200ms; animation-delay: 2200ms}
   #contact        {left: 272px; top: 620px; -webkit-animation-delay: 1400ms; animation-delay: 1400ms}
   #faq            {left: 109px; top: 856px; -webkit-animation-delay: 1600ms; animation-delay: 1600ms}
-  #helen          {left: 4px;   top: 620px; -webkit-animation-delay: 1800ms; animation-delay: 1800ms}
-  #mushon         {left: 150px;  top: 736px; -webkit-animation-delay: 2000ms; animation-delay: 2000ms}
+  #mushon         {left: 4px;   top: 620px; -webkit-animation-delay: 1800ms; animation-delay: 1800ms}
+  #helen          {left: 150px;  top: 736px; -webkit-animation-delay: 2000ms; animation-delay: 2000ms}
   #book           {left: 428px; top: 1800px; -webkit-animation-delay: 2400ms; animation-delay: 2000ms}
   #new            {left: 779px; top: 1325px; -webkit-animation-delay: 2800ms; animation-delay: 2400ms}
   #twitter        {left: 760px; top: 870px; -webkit-animation-delay: 2600ms; animation-delay: 2600ms}
