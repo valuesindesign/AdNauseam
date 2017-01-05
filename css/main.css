@@ -323,6 +323,20 @@ section p a:visited {
    	display: block;
    }
 
+  .parner span,
+  .parner strong{
+    font-size: 24px;
+    font-family: "Bebas Neue";
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+  }
+
+  .parner span{
+    font-size: 14px;
+    bottom: 29px;
+  }
 
  /* ==========================================================================
    Press Release
@@ -340,23 +354,23 @@ section p a:visited {
    z-index: 10;
  }*/
 
- #freeadnauseam span {
-   font-family: 'BebasNeue';
-   background: #000;
-   color: #D8000C;
-   padding: 0px 10px 3px;
-   border-radius: 3px;
-   border: #D8000C 2px solid;
-   display: block;
-   position: absolute;
-   bottom: -12px;
-   left: 50%;
-   margin-left: -50px;
-   width: 100px;
-   height: 20px;
-   z-index: 10;
-   font-size: 1.1em;
- }
+#freeadnauseam span {
+  font-family: 'BebasNeue';
+  background: #000;
+  color: #D8000C;
+  padding: 0px 10px 3px;
+  border-radius: 3px;
+  border: #D8000C 2px solid;
+  display: block;
+  position: absolute;
+  bottom: -12px;
+  right: 0;
+  margin-right: -60px;
+  width: 100px;
+  height: 20px;
+  z-index: 10;
+  font-size: 1.1em;
+}
 
  #freeadnauseam:hover span {
    background: #D8000C;
@@ -655,8 +669,8 @@ header h2{
   #pressblock     {left: 292px; top: 1650px; -webkit-animation-delay: 2200ms; animation-delay: 2200ms}
   #contact        {left: 272px; top: 620px; -webkit-animation-delay: 1400ms; animation-delay: 1400ms}
   #faq            {left: 109px; top: 856px; -webkit-animation-delay: 1600ms; animation-delay: 1600ms}
-  #helen          {left: 4px;   top: 620px; -webkit-animation-delay: 1800ms; animation-delay: 1800ms}
-  #mushon         {left: 150px;  top: 736px; -webkit-animation-delay: 2000ms; animation-delay: 2000ms}
+  #mushon         {left: 4px;   top: 620px; -webkit-animation-delay: 1800ms; animation-delay: 1800ms}
+  #helen          {left: 150px;  top: 736px; -webkit-animation-delay: 2000ms; animation-delay: 2000ms}
   #book           {left: 428px; top: 1800px; -webkit-animation-delay: 2400ms; animation-delay: 2000ms}
   #new            {left: 779px; top: 1325px; -webkit-animation-delay: 2800ms; animation-delay: 2400ms}
   #twitter        {left: 760px; top: 870px; -webkit-animation-delay: 2600ms; animation-delay: 2600ms}
