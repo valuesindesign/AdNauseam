@@ -20,4 +20,28 @@ $(document).ready(function () {
 
   if (bowser.name === 'Opera')
     $("#installChrome").css('right', '0px');
+
+  var bannedDate = new Date("Jan 1, 2017 00:00:00").getTime();
+
+  // Update the count every 1 second
+   setInterval(function count() {
+
+      var now = new Date().getTime();
+      var distance = now - bannedDate;
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Display the result in the element with id="demo"
+      $(".countdown .days").text(days);
+      $(".countdown .hours").text(hours);
+      $(".countdown .mins").text(minutes);
+      $(".countdown .secs").text(seconds);
+
+      return count;
+
+  }(), 1000);
+
 });
