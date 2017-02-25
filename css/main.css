@@ -143,7 +143,7 @@ header h1 {
 }
 
 #tagline {
-  font-family: 'BebasNeue';
+  font-family: 'bebas_neue';
   font-size: 1.5em;
   color: #BD10E0;
   text-align: left;
@@ -152,7 +152,7 @@ header h1 {
 }
 
 #alpha-warn {
-  font-family: 'BebasNeue';
+  font-family: 'bebas_neue';
   font-size: 1em;
   color: #BD10E0;
   text-align: left;
@@ -326,7 +326,7 @@ section p a:visited {
   .parner span,
   .parner strong{
     font-size: 24px;
-    font-family: "Bebas Neue";
+    font-family: "bebas_neue";
     color: #fff;
     position: absolute;
     left: 10px;
@@ -355,11 +355,53 @@ section p a:visited {
  }*/
 
 #freeadnauseam {
+  font-family: 'bebas_neue';
   position: relative;
   display: block;
 }
-#freeadnauseam span {
-  font-family: 'BebasNeue';
+#freeadnauseam p {
+  font-size: 30px;
+  color: #BEBEBE;
+  letter-spacing: 0.75px;
+  font-weight: 300;
+  position: absolute;
+  width: 100%;
+}
+
+#freeadnauseam p span span {
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+}
+
+#freeadnauseam p span span::after{
+  font-size: 12px;
+  font-weight: 400;
+  color: #8B8B8B;
+  top: 23px;
+  position: absolute;
+  left: 50%;
+  margin-left: -15px;
+  width: 30px;
+}
+
+#freeadnauseam p span span.days::after{
+  content: "days";
+}
+
+#freeadnauseam p span span.hours::after{
+  content: "hours";
+}
+
+#freeadnauseam p span span.mins::after{
+  content: "mins";
+}
+
+#freeadnauseam p span span.secs::after{
+  content: "secs";
+}
+
+#freeadnauseam span.read-it {
   background: #000;
   color: #D8000C;
   padding: 0px 10px 3px;
@@ -367,16 +409,17 @@ section p a:visited {
   border: #D8000C 2px solid;
   display: block;
   position: absolute;
-  bottom: -12px;
+  bottom: -2px;
   right: 0;
   margin-right: -60px;
   width: 100px;
   height: 20px;
   z-index: 10;
   font-size: 1.1em;
+  line-height: 1.4em;
 }
 
- #freeadnauseam:hover span {
+ #freeadnauseam:hover span.read-it {
    background: #D8000C;
    color: #000;
  }
@@ -477,7 +520,7 @@ a.watermark{
   padding:0.5rem;
   font-size: 1rem;
   color:white;
-  font-family: 'BebasNeue';
+  font-family: 'bebas_neue';
   font-weight: 200;
   color:#ccc;
 }
@@ -489,7 +532,7 @@ a.watermark{
 }
 .language{
   font-size:1.8rem;
-  font-family: 'BebasNeue';
+  font-family: 'bebas_neue';
   font-weight: 300;
   text-align: center;
 }
@@ -558,7 +601,7 @@ a.watermark{
 
 header h2{
   font-size: 2.2rem;
-  font-family: 'BebasNeue';
+  font-family: 'bebas_neue';
   color:#B144F2;
 
 }
@@ -576,14 +619,14 @@ header h2{
   text-transform: uppercase;
   color:white !important;
   font-size:1.8rem;
-  font-family: 'BebasNeue';
+  font-family: 'bebas_neue';
   font-weight:300;
 }
 .policy h3{
   text-decoration: none;
   font-size: 1.5rem;
   color:white;
-  font-family: 'BebasNeue';
+  font-family: 'bebas_neue';
   font-weight: 200;
   color:#BD10E0;
 }
@@ -669,7 +712,7 @@ header h2{
   }
 
   #logo           {top: 311px; margin-left: auto; margin-right: auto; left: 0; right: 0;}
-  #freeadnauseam  {position: absolute; top: 130px; left: 50%; margin-left: -225px;}
+  #freeadnauseam  {position: absolute; top: 100px; left: 50%; margin-left: -225px;}
   .subpage        {top:255px !important;}
   #tagline        {left: 429px; top: 473px; -webkit-animation-delay: 0ms; animation-delay: 0ms}
   #p1             {left: 429px; top: 570px; -webkit-animation-delay: 0ms; animation-delay: 0ms}
