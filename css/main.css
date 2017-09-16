@@ -580,6 +580,22 @@ a.watermark{
   margin:0.3rem;
   text-decoration: none;
 }
+.audio {
+  padding:0!important;
+  width:298px;
+}
+.audio:before {
+    content: "AUDIO ►";
+    font-family: 'bebas_neue';
+    font-size: 12px;
+    letter-spacing: .08em;
+    right: 0;
+    float: right;
+    color: white;
+    background: #8b35bf;
+    padding: 2px 8px;
+    opacity: 1;
+}
 .press a{
   text-decoration: none;
 }
