@@ -412,7 +412,7 @@ section p a:visited {
   bottom: -2px;
   right: 0;
   margin-right: -60px;
-  width: 100px;
+  width: 105px;
   height: 20px;
   z-index: 10;
   font-size: 1.1em;
@@ -579,6 +579,22 @@ a.watermark{
   line-height: 1.2rem;
   margin:0.3rem;
   text-decoration: none;
+}
+.audio {
+  padding:0!important;
+  width:298px;
+}
+.audio:before {
+    content: "AUDIO ►";
+    font-family: 'bebas_neue';
+    font-size: 12px;
+    letter-spacing: .08em;
+    right: 0;
+    float: right;
+    color: white;
+    background: #8b35bf;
+    padding: 2px 8px;
+    opacity: 1;
 }
 .press a{
   text-decoration: none;
