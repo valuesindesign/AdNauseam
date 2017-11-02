@@ -580,11 +580,11 @@ a.watermark{
   margin:0.3rem;
   text-decoration: none;
 }
-.audio {
+.press .audio {
   padding:0!important;
   width:298px;
 }
-.audio:before {
+.press .audio:before {
     content: "AUDIO ►";
     font-family: 'bebas_neue';
     font-size: 12px;
