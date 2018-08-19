@@ -136,6 +136,7 @@ body {
 
 header {
   text-align: center;
+  margin-top: 30px;
 }
 
 header h1 {
@@ -323,8 +324,8 @@ section p a:visited {
    	display: block;
    }
 
-  .parner span,
-  .parner strong{
+  .partner span,
+  .partner strong{
     font-size: 24px;
     font-family: "bebas_neue";
     color: #fff;
@@ -333,7 +334,7 @@ section p a:visited {
     bottom: 5px;
   }
 
-  .parner span{
+  .partner span{
     font-size: 14px;
     bottom: 29px;
   }
@@ -353,6 +354,28 @@ section p a:visited {
    height: 93px;
    z-index: 10;
  }*/
+
+#ban_alert {
+  background: #D8000C;
+  height: 25px;
+  width: 100%;
+  font-family: 'bebas_neue';
+  color: #fff;
+  display: block;
+  position: fixed;
+  top: 0;
+  margin-bottom: 25px;
+}
+
+#ban_alert>span{
+  margin: 0;
+  padding: 0 5px;
+  letter-spacing: 0.04em;
+  overflow: hidden;
+}
+#ban_alert>span>span{
+  color: #ff0;
+}
 
 #freeadnauseam {
   font-family: 'bebas_neue';
@@ -681,6 +704,13 @@ header h2{
   width:500px;
   margin:auto;
   }
+  .partner>a {
+    position: relative;
+    height: 109px;
+    display: block;
+    width: 258px;
+    margin: 0 auto;
+  }
   .col{
     float:none;
     margin:auto;
@@ -700,6 +730,9 @@ header h2{
   #banners>div {
     text-align: center;
     margin-bottom: 10px;
+  }
+  #banners>div#source {
+    position: fixed;
   }
   #banners>div img {
     max-width: 100%;
