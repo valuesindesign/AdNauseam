@@ -365,6 +365,7 @@ section p a:visited {
   position: fixed;
   top: 0;
   margin-bottom: 25px;
+  text-decoration: none;
 }
 
 #ban_alert>span{
