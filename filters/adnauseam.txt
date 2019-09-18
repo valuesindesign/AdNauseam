@@ -1,4 +1,4 @@
-||http://widgets.wp.com/platform.js, domain=filbert.cc
+||widgets.wp.com/platform.js, domain=filbert.cc
 
 # Generics (any page)
 ##*[class^="google_ads"]
